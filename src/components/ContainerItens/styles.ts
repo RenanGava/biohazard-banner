@@ -31,7 +31,7 @@ export const ItensWrapper = styled.div`
 export const ItemCard = styled.div`
   padding: 1rem;
   width: 250px;
-  height: 250px;
+  height: 300px;
   margin-top: 2rem;
   justify-content: space-evenly;
   align-items: center;
