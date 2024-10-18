@@ -51,7 +51,7 @@ export const ItemCard = styled.div`
       width: 100%;
       text-align: left;
       height: 40px;
-      overflow: hidden;
+      
     }
   }
   span {

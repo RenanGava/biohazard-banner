@@ -30,11 +30,12 @@ export function ContainerRisks() {
             <ItemImage src={jaleco} alt="" width={64} height={64} />
           </ImageContainer>
           <div>
-            <h1>Jalecos</h1>
+            <h1>Exposição a Substâncias Químicas</h1>
             <p>
-              Recomenda-se o uso de jalecos para proteger o corpo contra
-              derramamentos, respingos e poeira, prevenindo contaminações de
-              agentes quimicos leves.
+              Os farmacêuticos lidam frequentemente com substâncias químicas,
+              como medicamentos controlados e produtos químicos utilizados na
+              produção de fórmulas magistrais. Essa exposição pode causar
+              intoxicações, alergias e até doenças graves.
             </p>
           </div>
         </ItemCard>
@@ -43,12 +44,12 @@ export function ContainerRisks() {
             <ItemImage src={luva} alt="" width={64} height={64} />
           </ImageContainer>
           <div>
-            <h1>Luvas descartáveis</h1>
+            <h1>Contaminação Microbiológica</h1>
             <p>
-              As mãos são as principais ferramentas de trabalho do farmacêutico.
-              O uso de luvas é essencial para evitar o contato direto com
-              possíveis contaminantes e assegurar a higiene durante a
-              manipulação de medicamentos.
+              A manipulação de medicamentos e o contato com pacientes aumentam o
+              risco de contaminação microbiológica. Bactérias, vírus e fungos
+              podem ser transmitidos através do contato direto com os pacientes
+              ou por meio de superfícies contaminadas.
             </p>
           </div>
         </ItemCard>
@@ -57,37 +58,12 @@ export function ContainerRisks() {
             <ItemImage src={viseira} alt="" width={64} height={64} />
           </ImageContainer>
           <div>
-            <h1>Óculos de segurança</h1>
+            <h1>Lesões por Perfurocortantes</h1>
             <p>
-              Os óculos de proteção visam resguardar os olhos contra respingos,
-              poeira e outros agentes que podem causar irritações e lesões
-              oculares durante o trabalho.
-            </p>
-          </div>
-        </ItemCard>
-        <ItemCard>
-          <ImageContainer>
-            <ItemImage src={mascara} alt="" width={64} height={64} />
-          </ImageContainer>
-          <div>
-            <h1>Máscaras de proteção</h1>
-            <p>
-              As máscaras protegem as vias respiratórias, prevenindo doenças e
-              alergias, e bloqueiam a transmissão de microrganismos entre
-              farmacêutico e paciente.
-            </p>
-          </div>
-        </ItemCard>
-        <ItemCard>
-          <ImageContainer>
-            <ItemImage src={macacao} alt="" width={64} height={64} />
-          </ImageContainer>
-          <div>
-            <h1>Máscaras de proteção</h1>
-            <p>
-              As máscaras protegem as vias respiratórias, prevenindo doenças e
-              alergias, e bloqueiam a transmissão de microrganismos entre
-              farmacêutico e paciente.
+              Agulhas, lâminas e outros objetos pontiagudos são usados
+              diariamente por farmacêuticos. Acidentes com esses objetos podem
+              resultar em cortes, perfurações e a possibilidade de contaminação
+              por patógenos.
             </p>
           </div>
         </ItemCard>
