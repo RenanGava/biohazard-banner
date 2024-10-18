@@ -32,7 +32,7 @@ export const ItensWrapper = styled.div`
 export const ItemCard = styled.div`
   padding: 1rem;
   width: 100%;
-  max-width: 700px;
+  max-width: 900px;
   max-height: 350px;
   margin-top: 2rem;
   display: flex;
