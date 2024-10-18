@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1000px;
   padding: 1rem;
-  margin: 0 auto;
+  margin: 5rem auto 0 auto;
 `;
 
 export const ContentHeader = styled.header`
@@ -31,7 +31,7 @@ export const ItensWrapper = styled.div`
 export const ItemCard = styled.div`
   padding: 1rem;
   width: 250px;
-  height: 300px;
+  height: 350px;
   margin-top: 2rem;
   justify-content: space-evenly;
   align-items: center;
@@ -62,7 +62,7 @@ export const ItemCard = styled.div`
   &:hover {
     p {
       transition: 400ms;
-      height: 190px;
+      height: 230px;
       overflow: block;
     }
 

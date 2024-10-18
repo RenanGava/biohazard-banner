@@ -1,8 +1,15 @@
 "use client";
 import { useEffect } from "react";
-import { Container, IconContainer, Icons } from "./styles";
+import { Container, IconContainer, Icons, ItemImage } from "./styles";
 
 import { faSyringe, faHeadSideMask } from "@fortawesome/free-solid-svg-icons";
+
+import jaleco from "../../assets/jaleco.png";
+import luva from "../../assets/luva.png";
+import macacao from "../../assets/macacao.png";
+import mascara from "../../assets/mascara-facial.png";
+import viseira from "../../assets/equipamentos-de-protecao.png";
+import seringa from "../../assets/seringa.png";
 
 export function Dashboard() {
   useEffect(() => {
@@ -13,19 +20,15 @@ export function Dashboard() {
     itensGrid[index].classList.add("focus");
 
     const interval = setInterval(() => {
-      
       itensGrid[currentIndex].classList.remove("focus");
 
       itensGrid[index].classList.add("focus");
 
-      if(index >= itensGrid.length - 1){
-
-        currentIndex = index
-        index = 0
-      }
-      else{
-        
-        currentIndex = index++
+      if (index >= itensGrid.length - 1) {
+        currentIndex = index;
+        index = 0;
+      } else {
+        currentIndex = index++;
       }
     }, 3000);
   }, []);
@@ -47,32 +50,20 @@ export function Dashboard() {
           <a href=""> testando</a>
         </div>
         <div id="grid">
-          <IconContainer className="">
-            <Icons icon={faSyringe} size="2xl" />
+          <IconContainer className="iconFrame1">
+            <ItemImage src={jaleco} alt="" width={64} height={64} />
           </IconContainer>
-          <IconContainer>
-            <Icons icon={faHeadSideMask} size="2xl" />
+          <IconContainer className="iconFrame2">
+            <ItemImage src={luva} alt="" width={64} height={64} />
           </IconContainer>
-          <IconContainer>
-            <Icons icon={faSyringe} size="2xl" />
+          <IconContainer className="iconFrame3">
+            <ItemImage src={mascara} alt="" width={64} height={64} />
           </IconContainer>
-          <IconContainer>
-            <Icons icon={faSyringe} size="2xl" />
+          <IconContainer className="iconFrame4">
+            <ItemImage src={viseira} alt="" width={64} height={64} />
           </IconContainer>
-          <IconContainer>
-            <Icons icon={faSyringe} size="2xl" />
-          </IconContainer>
-          <IconContainer>
-            <Icons icon={faSyringe} size="2xl" />
-          </IconContainer>
-          <IconContainer>
-            <Icons icon={faSyringe} size="2xl" />
-          </IconContainer>
-          <IconContainer>
-            <Icons icon={faSyringe} size="2xl" />
-          </IconContainer>
-          <IconContainer>
-            <Icons icon={faSyringe} size="2xl" />
+          <IconContainer className="iconFrame5">
+            <ItemImage src={macacao} alt="" width={64} height={64} />
           </IconContainer>
         </div>
       </div>

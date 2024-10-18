@@ -29,10 +29,11 @@ export function ContainerItens() {
           <ImageContainer>
             <ItemImage src={jaleco} alt="" width={64} height={64} />
           </ImageContainer>
-          <h1>Aventais/Jalecos</h1>
+          <h1>Jalecos</h1>
           <p>
-            Recomenda-se o uso de vestimentas impermeáveis para proteger o corpo
-            contra derramamentos, respingos e poeira, prevenindo contaminações.
+            Recomenda-se o uso de jalecos para proteger o corpo contra
+            derramamentos, respingos e poeira, prevenindo contaminações de
+            agentes quimicos leves.
           </p>
           <span>...</span>
         </ItemCard>
@@ -51,7 +52,7 @@ export function ContainerItens() {
         </ItemCard>
         <ItemCard>
           <ImageContainer>
-            <ItemImage src={macacao} alt="" width={64} height={64} />
+            <ItemImage src={viseira} alt="" width={64} height={64} />
           </ImageContainer>
           <h1>Óculos de segurança</h1>
           <p>
@@ -75,13 +76,13 @@ export function ContainerItens() {
         </ItemCard>
         <ItemCard>
           <ImageContainer>
-            <ItemImage src={viseira} alt="" width={64} height={64} />
+            <ItemImage src={macacao} alt="" width={64} height={64} />
           </ImageContainer>
           <h1>Aventais/Jalecos</h1>
           <p>
-            recomenda-se o uso desses itens de vestimenta impermeáveis para
-            proteger o corpo contra derramamentos, respingos e poeira,
-            prevenindo contaminações.
+            O macacão na área farmacêutica protege contra contaminações pesadas,
+            como substâncias químicas e biológicas, garantindo a segurança dos
+            profissionais.
           </p>
           <span>...</span>
         </ItemCard>

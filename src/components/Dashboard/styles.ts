@@ -1,6 +1,7 @@
 "use client";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export const Container = styled.div`
   margin-top: 100px;
@@ -28,8 +29,34 @@ export const Container = styled.div`
     }
 
     & > div:last-child {
+
+      div.iconFrame1{
+        grid-area: iconFrame1;
+      }
+
+      div.iconFrame2{
+        grid-area: iconFrame2;
+      }
+
+      div.iconFrame3{
+        grid-area: iconFrame3;
+      }
+
+      div.iconFrame4{
+        grid-area: iconFrame4;
+      }
+
+      div.iconFrame5{
+        grid-area: iconFrame5;
+      }
+
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      /* grid-template-columns: 1fr 1fr 1fr; */
+      grid-template-areas:
+        "iconFrame1 . iconFrame2"
+        ". iconFrame3 . "
+        "iconFrame4 . iconFrame5"
+		;
       grid-gap: 30px;
       margin: 0 auto;
       
@@ -88,3 +115,5 @@ export const IconContainer = styled.div`
 `;
 
 export const Icons = styled(FontAwesomeIcon)``;
+
+export const ItemImage = styled(Image)``;
