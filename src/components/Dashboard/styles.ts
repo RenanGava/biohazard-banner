@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Container = styled.div`
-  margin-top: 200px;
+  margin-top: 100px;
   padding: 2rem;
   div.container-main {
     max-width: 1280px;
@@ -31,6 +31,7 @@ export const Container = styled.div`
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 30px;
+      margin: 0 auto;
       
     }
 

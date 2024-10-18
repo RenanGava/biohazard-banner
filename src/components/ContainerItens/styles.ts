@@ -62,7 +62,7 @@ export const ItemCard = styled.div`
   &:hover {
     p {
       transition: 400ms;
-      height: 100px;
+      height: 190px;
       overflow: block;
     }
 
