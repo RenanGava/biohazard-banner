@@ -35,7 +35,7 @@ export function ContainerItens() {
             derramamentos, respingos e poeira, prevenindo contaminações de
             agentes quimicos leves.
           </p>
-          <span>...</span>
+          <span>Ler Mais!</span>
         </ItemCard>
         <ItemCard>
           <ImageContainer>
@@ -48,7 +48,7 @@ export function ContainerItens() {
             contaminantes e assegurar a higiene durante a manipulação de
             medicamentos.
           </p>
-          <span>...</span>
+          <span>Ler Mais!</span>
         </ItemCard>
         <ItemCard>
           <ImageContainer>
@@ -60,7 +60,7 @@ export function ContainerItens() {
             poeira e outros agentes que podem causar irritações e lesões
             oculares durante o trabalho.
           </p>
-          <span>...</span>
+          <span>Ler Mais!</span>
         </ItemCard>
         <ItemCard>
           <ImageContainer>
@@ -72,7 +72,7 @@ export function ContainerItens() {
             alergias, e bloqueiam a transmissão de microrganismos entre
             farmacêutico e paciente.
           </p>
-          <span>...</span>
+          <span>Ler Mais!</span>
         </ItemCard>
         <ItemCard>
           <ImageContainer>
@@ -84,7 +84,7 @@ export function ContainerItens() {
             como substâncias químicas e biológicas, garantindo a segurança dos
             profissionais.
           </p>
-          <span>...</span>
+          <span>Ler Mais</span>
         </ItemCard>
       </ItensWrapper>
     </Container>
