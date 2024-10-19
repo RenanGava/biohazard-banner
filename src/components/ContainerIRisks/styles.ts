@@ -33,32 +33,22 @@ export const ItemCard = styled.div`
   padding: 1rem;
   width: 100%;
   max-width: 900px;
-  max-height: 350px;
-  margin-top: 2rem;
+  height: fit-content;
+  margin-top: 1rem;
   display: flex;
-  align-items: center;
-  transition: 400ms;
 
   div {
     margin-left: 2rem;
     h1 {
       display: block;
       font-size: 20px;
-      text-align: left;
     }
 
     p {
       width: 100%;
-      text-align: left;
-      height: 40px;
+      /* height: 40px; */
       
     }
-  }
-  span {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    letter-spacing: -2px;
   }
 `;
 
